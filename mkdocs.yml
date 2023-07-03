@@ -1,0 +1,30 @@
+site_name: BIIF documentation
+repo_url: https://github.com/BIIFSweden/docs
+edit_uri: edit/main/docs/
+site_description: Internal BIIF documentation
+site_author: BioImage Informatics Facility (BIIF)
+plugins:
+  - search
+theme:
+  name: material
+  logo: assets/biif_logo_white.png
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - search.suggest
+    - content.action.edit
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - footnotes
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/BIIFSweden
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/biif_sweden
+nav:
+  - index.md
+  - Infrastructure:
+    - infrastructure/alvis.md
+  - Containers: https://github.com/BIIFSweden/docs/tree/main/containers

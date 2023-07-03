@@ -1,2 +1,2 @@
 # docs
-Internal documentation
+Internal BIIF documentation
